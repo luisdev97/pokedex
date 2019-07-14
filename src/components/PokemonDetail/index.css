@@ -1,0 +1,82 @@
+.detailContainer{
+  background-image: -webkit-linear-gradient(130deg, gray 50.5%, red 50%);
+  border-style: solid;
+  border-width: 2px 3px 4px 3px;
+  background-color: orange;
+  width: 80%;
+  height: 87%;
+  /*overflow: auto;*/
+  margin-left: 200px;
+  margin-top: 8.5%;
+}
+
+.detailContainerBackground {
+background-color: #878787;
+}
+
+.imageBox {
+	height: 20%;
+	width: 70%;
+  background-color: rgba(0, 0, 0, 0.4); 
+  color: rgba(0, 0, 0, 0.4);
+	border-style: solid ;
+ 	border-width: 2px 2px 4px 3px;
+}
+
+
+.pokeType{
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  margin-top: 20px;
+  height: 40px;
+  width: 110px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+table.paleBlueRows {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #FFFFFF;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.paleBlueRows thead {
+  background: #6C6B6B;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background: #D0E4F5;
+  border-top: 3px solid #444444;
+}
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}

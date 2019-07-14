@@ -1,0 +1,31 @@
+.list {
+	background-color: gray;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #626262;
+
+
+/*
+background: -moz-linear-gradient(360deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 7%, rgba(128,38,34,0.73) 56%, rgba(232,0,0,0.7) 100%); 
+background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(0,0,0,0.75)), color-stop(7%, rgba(0,0,0,0.75)), color-stop(56%, rgba(128,38,34,0.73)), color-stop(100%, rgba(232,0,0,0.7))); 
+background: -webkit-linear-gradient(360deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 7%, rgba(128,38,34,0.73) 56%, rgba(232,0,0,0.7) 100%); 
+background: -o-linear-gradient(360deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 7%, rgba(128,38,34,0.73) 56%, rgba(232,0,0,0.7) 100%); /* opera 11.10+ 
+background: -ms-linear-gradient(360deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 7%, rgba(128,38,34,0.73) 56%, rgba(232,0,0,0.7) 100%); 
+background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.75) 7%, rgba(128,38,34,0.73) 56%, rgba(232,0,0,0.7) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#E80000',GradientType=1 );
+*/
+}
+
+span:hover {
+	color: yellow;
+	transition: 0.5s;
+}
+
+.pokeTitle{
+font-family: "times new roman", times, serif;
+font-size: 36px;
+letter-spacing: 12.4pt;
+word-spacing: 5.6pt;
+line-height: 1.4;
+
+}
